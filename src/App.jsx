@@ -6,19 +6,20 @@ import Invoices from '@/components/pages/Invoices';
 import Customers from '@/components/pages/Customers';
 import Items from '@/components/pages/Items';
 import Payments from '@/components/pages/Payments';
+import Expenses from '@/components/pages/Expenses';
 import Reports from '@/components/pages/Reports';
 import Settings from '@/components/pages/Settings';
-
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Layout>
-        <Routes>
+<Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/invoices" element={<Invoices />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/items" element={<Items />} />
           <Route path="/payments" element={<Payments />} />
+          <Route path="/expenses" element={<Expenses />} />
           <Route path="/reports" element={<Reports />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>

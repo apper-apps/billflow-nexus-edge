@@ -7,12 +7,13 @@ import { cn } from '@/utils/cn';
 const Sidebar = ({ isOpen, onClose }) => {
   const location = useLocation();
   
-  const menuItems = [
+const menuItems = [
     { path: '/', label: 'Dashboard', icon: 'LayoutDashboard' },
     { path: '/invoices', label: 'Invoices', icon: 'FileText' },
     { path: '/customers', label: 'Customers', icon: 'Users' },
     { path: '/items', label: 'Items', icon: 'Package' },
     { path: '/payments', label: 'Payments', icon: 'CreditCard' },
+    { path: '/expenses', label: 'Expenses', icon: 'Receipt' },
     { path: '/reports', label: 'Reports', icon: 'BarChart3' },
     { path: '/settings', label: 'Settings', icon: 'Settings' },
   ];
