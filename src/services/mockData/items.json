@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "name": "Premium Laptop",
+    "hsnCode": "8471",
+    "price": 1500,
+    "gstRate": 18,
+    "unit": "pcs",
+    "stockQuantity": 25,
+    "description": "High-performance laptop for business use",
+    "createdAt": "2024-01-10T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Wireless Mouse",
+    "hsnCode": "8471",
+    "price": 850,
+    "gstRate": 18,
+    "unit": "pcs",
+    "stockQuantity": 50,
+    "description": "Ergonomic wireless mouse with long battery life",
+    "createdAt": "2024-01-12T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Office Chair",
+    "hsnCode": "9401",
+    "price": 200,
+    "gstRate": 18,
+    "unit": "pcs",
+    "stockQuantity": 15,
+    "description": "Comfortable office chair with lumbar support",
+    "createdAt": "2024-01-15T09:30:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "LED Monitor",
+    "hsnCode": "8528",
+    "price": 750,
+    "gstRate": 18,
+    "unit": "pcs",
+    "stockQuantity": 30,
+    "description": "24-inch LED monitor with full HD resolution",
+    "createdAt": "2024-01-18T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Keyboard",
+    "hsnCode": "8471",
+    "price": 1200,
+    "gstRate": 18,
+    "unit": "pcs",
+    "stockQuantity": 40,
+    "description": "Mechanical keyboard with RGB lighting",
+    "createdAt": "2024-01-20T16:15:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "USB Cable",
+    "hsnCode": "8544",
+    "price": 300,
+    "gstRate": 18,
+    "unit": "pcs",
+    "stockQuantity": 100,
+    "description": "High-speed USB 3.0 cable - 2 meters",
+    "createdAt": "2024-01-22T13:10:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "Printer Paper",
+    "hsnCode": "4802",
+    "price": 450,
+    "gstRate": 12,
+    "unit": "pack",
+    "stockQuantity": 60,
+    "description": "A4 size premium quality printer paper - 500 sheets",
+    "createdAt": "2024-01-25T10:25:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "Desk Lamp",
+    "hsnCode": "9405",
+    "price": 180,
+    "gstRate": 18,
+    "unit": "pcs",
+    "stockQuantity": 20,
+    "description": "LED desk lamp with adjustable brightness",
+    "createdAt": "2024-01-28T15:40:00Z"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "Id": 1,
+    "invoiceNumber": "INV-20241201-001",
+    "customerId": 1,
+    "items": [
+      {
+        "itemId": 1,
+        "quantity": 2,
+        "rate": 1500,
+        "amount": 3000
+      },
+      {
+        "itemId": 2,
+        "quantity": 1,
+        "rate": 850,
+        "amount": 850
+      }
+    ],
+    "subtotal": 3850,
+    "taxAmount": 693,
+    "total": 4543,
+    "status": "paid",
+    "dueDate": "2024-12-15",
+    "notes": "Payment received on time",
+    "createdAt": "2024-12-01T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "invoiceNumber": "INV-20241202-002",
+    "customerId": 2,
+    "items": [
+      {
+        "itemId": 3,
+        "quantity": 5,
+        "rate": 200,
+        "amount": 1000
+      }
+    ],
+    "subtotal": 1000,
+    "taxAmount": 180,
+    "total": 1180,
+    "status": "pending",
+    "dueDate": "2024-12-20",
+    "notes": "Follow up for payment",
+    "createdAt": "2024-12-02T14:15:00Z"
+  },
+  {
+    "Id": 3,
+    "invoiceNumber": "INV-20241203-003",
+    "customerId": 3,
+    "items": [
+      {
+        "itemId": 4,
+        "quantity": 3,
+        "rate": 750,
+        "amount": 2250
+      }
+    ],
+    "subtotal": 2250,
+    "taxAmount": 405,
+    "total": 2655,
+    "status": "overdue",
+    "dueDate": "2024-11-30",
+    "notes": "Payment overdue - urgent follow up required",
+    "createdAt": "2024-11-25T09:45:00Z"
+  },
+  {
+    "Id": 4,
+    "invoiceNumber": "INV-20241204-004",
+    "customerId": 4,
+    "items": [
+      {
+        "itemId": 5,
+        "quantity": 1,
+        "rate": 1200,
+        "amount": 1200
+      }
+    ],
+    "subtotal": 1200,
+    "taxAmount": 216,
+    "total": 1416,
+    "status": "draft",
+    "dueDate": "2024-12-25",
+    "notes": "Draft invoice - needs customer approval",
+    "createdAt": "2024-12-04T16:20:00Z"
+  },
+  {
+    "Id": 5,
+    "invoiceNumber": "INV-20241205-005",
+    "customerId": 5,
+    "items": [
+      {
+        "itemId": 1,
+        "quantity": 1,
+        "rate": 1500,
+        "amount": 1500
+      },
+      {
+        "itemId": 6,
+        "quantity": 2,
+        "rate": 300,
+        "amount": 600
+      }
+    ],
+    "subtotal": 2100,
+    "taxAmount": 378,
+    "total": 2478,
+    "status": "pending",
+    "dueDate": "2024-12-22",
+    "notes": "New customer - first invoice",
+    "createdAt": "2024-12-05T11:30:00Z"
+  }
+]

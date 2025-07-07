@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "invoiceId": 1,
+    "amount": 4543,
+    "paymentDate": "2024-12-10",
+    "mode": "Bank Transfer",
+    "reference": "TXN123456789",
+    "status": "completed",
+    "createdAt": "2024-12-10T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "invoiceId": 2,
+    "amount": 500,
+    "paymentDate": "2024-12-05",
+    "mode": "UPI",
+    "reference": "UPI987654321",
+    "status": "completed",
+    "createdAt": "2024-12-05T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "invoiceId": 5,
+    "amount": 1000,
+    "paymentDate": "2024-12-08",
+    "mode": "Cash",
+    "reference": "CASH001",
+    "status": "completed",
+    "createdAt": "2024-12-08T16:45:00Z"
+  }
+]
