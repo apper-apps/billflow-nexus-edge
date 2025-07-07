@@ -12,6 +12,7 @@ const menuItems = [
     { path: '/invoices', label: 'Invoices', icon: 'FileText' },
     { path: '/customers', label: 'Customers', icon: 'Users' },
     { path: '/items', label: 'Items', icon: 'Package' },
+    { path: '/purchase-orders', label: 'Purchase Orders', icon: 'ShoppingCart' },
     { path: '/payments', label: 'Payments', icon: 'CreditCard' },
     { path: '/expenses', label: 'Expenses', icon: 'Receipt' },
     { path: '/reports', label: 'Reports', icon: 'BarChart3' },

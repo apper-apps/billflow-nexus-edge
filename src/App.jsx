@@ -5,6 +5,7 @@ import Dashboard from '@/components/pages/Dashboard';
 import Invoices from '@/components/pages/Invoices';
 import Customers from '@/components/pages/Customers';
 import Items from '@/components/pages/Items';
+import PurchaseOrders from '@/components/pages/PurchaseOrders';
 import Payments from '@/components/pages/Payments';
 import Expenses from '@/components/pages/Expenses';
 import Reports from '@/components/pages/Reports';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/invoices" element={<Invoices />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/items" element={<Items />} />
+          <Route path="/purchase-orders" element={<PurchaseOrders />} />
           <Route path="/payments" element={<Payments />} />
           <Route path="/expenses" element={<Expenses />} />
           <Route path="/reports" element={<Reports />} />
