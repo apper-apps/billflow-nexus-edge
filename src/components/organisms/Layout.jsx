@@ -13,10 +13,10 @@ const Layout = ({ children }) => {
     setSidebarOpen(false);
   };
 
-  return (
+return (
     <div className="min-h-screen bg-gray-50">
       <Sidebar isOpen={sidebarOpen} onClose={closeSidebar} />
-<div className="lg:ml-64">
+      <div className="lg:mr-64">
         <Header onMenuToggle={toggleSidebar} />
         <main className="p-6 pt-16">
           {children}
